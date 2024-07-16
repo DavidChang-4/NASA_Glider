@@ -1,0 +1,1509 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "98bd8303-24ad-4ab0-a161-061b62a656b8")
+	(paper "A4")
+	(lib_symbols
+		(symbol "BRGRavionics-eagle-import:BMP581"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 26.67 17.78 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" ""
+				(at 26.67 15.24 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "BRGRavionics:BMP581"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "BMP581_1_0"
+				(polyline
+					(pts
+						(xy 5.08 12.7) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 12.7) (xy 25.4 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -15.24) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 25.4 -15.24) (xy 25.4 12.7)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 5.08)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 17.78 270)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 12.7 -20.32 90)
+					(length 5.08)
+					(name "VSS_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 -20.32 90)
+					(length 5.08)
+					(name "SDI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 -20.32 90)
+					(length 5.08)
+					(name "SDO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "CSB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 17.78 17.78 270)
+					(length 5.08)
+					(name "VSS_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 15.24 17.78 270)
+					(length 5.08)
+					(name "VSS_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "BRGRavionics-eagle-import:GND-EARTH"
+			(power)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#SUPPLY"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND-EARTH"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.778 1.5113)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND-EARTH_1_0"
+				(polyline
+					(pts
+						(xy -1.905 0) (xy 1.905 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -0.762) (xy 1.27 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.524) (xy 0.635 -1.524)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0) hide
+					(name "+3.3V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 134.62 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "17219257-cd35-497e-bd0c-36e95874aba6")
+	)
+	(junction
+		(at 116.84 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4384d8b0-8b23-4c48-9107-22208e51dbe1")
+	)
+	(junction
+		(at 121.92 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a254dc65-efec-4d6e-9ecb-d6ede3f4b3c6")
+	)
+	(junction
+		(at 139.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e7cf9625-3ef0-445f-b149-c544d532fb8d")
+	)
+	(wire
+		(pts
+			(xy 139.7 105.41) (xy 142.24 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b61a031-ea63-4c0c-be29-7d37bdffcfc6")
+	)
+	(wire
+		(pts
+			(xy 109.22 71.755) (xy 109.22 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1552abe2-a7a7-47b5-abbf-499e3e0c3777")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 139.7 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1bc2c2a2-b288-4c1a-8e3d-0b1e276808e5")
+	)
+	(wire
+		(pts
+			(xy 121.92 66.04) (xy 121.92 85.09)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "1d5f405d-00fd-41d4-9242-70cb00c8735c")
+	)
+	(wire
+		(pts
+			(xy 121.92 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "28c3306d-d975-4189-867e-6cdda35b4a1b")
+	)
+	(wire
+		(pts
+			(xy 116.84 66.04) (xy 116.84 71.755)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "34d25cab-326f-4d31-995b-e358502a809a")
+	)
+	(wire
+		(pts
+			(xy 121.92 66.04) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3908a289-96e3-4913-b22e-b24d5fae1dc6")
+	)
+	(wire
+		(pts
+			(xy 134.62 64.135) (xy 134.62 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4831db23-82c4-45cd-a956-c10b819efd11")
+	)
+	(wire
+		(pts
+			(xy 120.65 87.63) (xy 121.92 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b0cc302-dc30-4503-88d0-200070a9addc")
+	)
+	(wire
+		(pts
+			(xy 109.22 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "5438df09-9235-4157-83e6-c62835ad5c54")
+	)
+	(wire
+		(pts
+			(xy 144.78 63.5) (xy 144.78 65.405)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "67292016-e5f6-490a-bd61-fba7ee11df78")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 137.16 67.31)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "961726c1-7c6b-4996-9510-69303ab58845")
+	)
+	(wire
+		(pts
+			(xy 137.16 63.5) (xy 139.7 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "97b9837b-b5ac-4151-891a-907d511e3e31")
+	)
+	(wire
+		(pts
+			(xy 134.62 66.04) (xy 134.62 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cc6eb86-bce2-4801-a06c-5c67d65e5a94")
+	)
+	(wire
+		(pts
+			(xy 137.16 105.41) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a011f414-dcc4-4bce-ac85-515d6bbcb163")
+	)
+	(wire
+		(pts
+			(xy 109.22 76.835) (xy 109.22 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1d9e84f-4254-43f1-ab51-d5caa7ac99af")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.835) (xy 116.84 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9957b8f-c28d-4efa-8ef4-b29bb7a1de5a")
+	)
+	(wire
+		(pts
+			(xy 142.24 110.49) (xy 137.16 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c87a568f-f14f-4c36-bcf3-7dc73f99e02b")
+	)
+	(wire
+		(pts
+			(xy 139.7 63.5) (xy 144.78 63.5)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "eabec52b-6c85-484c-8213-4f95f8f04a48")
+	)
+	(hierarchical_label "SDA"
+		(shape input)
+		(at 142.24 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a3a1cbc6-8482-4f64-89e7-2d1a5bdbe576")
+	)
+	(hierarchical_label "SCL"
+		(shape input)
+		(at 120.65 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c41b97d7-291e-47ba-811f-c44e0ea7813a")
+	)
+	(hierarchical_label "ADDR"
+		(shape input)
+		(at 142.24 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9a3932b-144e-4393-9feb-4fe892b1fbb0")
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 109.22 74.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b2e6a2f-090b-4661-8276-916b44ad5cbe")
+		(property "Reference" "C28"
+			(at 104.775 72.39 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 103.505 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 109.22 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7bf7476-5d11-4c13-a727-48f8988bcdcc")
+		)
+		(pin "2"
+			(uuid "dd5ad1ac-d3ce-4992-86dc-9b99a3424966")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "C18")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 74.295 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52053a8e-1116-462e-a397-0c84718b89a8")
+		(property "Reference" "C29"
+			(at 111.76 71.755 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 111.125 78.74 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.84 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 116.84 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bfe1775a-05a5-4798-b1e8-c6baf31d0245")
+		)
+		(pin "2"
+			(uuid "ba9258d4-3438-4d11-a7d4-ffb725b0b834")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "C19")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BRGRavionics-eagle-import:BMP581")
+		(at 121.92 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65adffa3-1a06-4d49-bc65-a7de7e50e19b")
+		(property "Reference" "U9"
+			(at 148.59 67.31 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BMP581"
+			(at 148.59 69.85 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:BMP581"
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 121.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bde04173-8ed8-4a05-8d1b-70c3dda50b4b")
+		)
+		(pin "10"
+			(uuid "b304e14d-d546-451e-9783-0c9c2ce7e56e")
+		)
+		(pin "2"
+			(uuid "9058936a-619c-41ba-a430-5e9de73b115d")
+		)
+		(pin "3"
+			(uuid "ce533b98-f9fa-4e6b-bdc9-dd69c2c1a848")
+		)
+		(pin "4"
+			(uuid "187bb487-819a-4884-8129-d0cecc0771b3")
+		)
+		(pin "5"
+			(uuid "65ef0d91-ca67-483d-ad5a-9191b007850c")
+		)
+		(pin "6"
+			(uuid "1ba7d37c-21e7-4c44-b91b-0ef43c053b64")
+		)
+		(pin "7"
+			(uuid "d17beb6b-d0dd-43d4-be64-1fe3aecdbbc0")
+		)
+		(pin "8"
+			(uuid "5611f23a-5f40-4723-9ce5-6aa174bf5489")
+		)
+		(pin "9"
+			(uuid "9bdadc06-152a-4cbf-b931-db6d078d834a")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "U7")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BRGRavionics-eagle-import:GND-EARTH")
+		(at 109.22 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "74ce42d7-ab29-4e74-8b26-987973361ded")
+		(property "Reference" "#SUPPLY0104"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 109.22 84.455 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5fde019c-5c95-40c8-8524-1773951f2213")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "#SUPPLY04")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "#SUPPLY0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 134.62 64.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8cdfce2e-5a24-448f-8d07-94c7816200ba")
+		(property "Reference" "#PWR0103"
+			(at 134.62 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 134.62 60.325 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9cef0d6a-8cdf-4b7f-9509-086816a9fc18")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BRGRavionics-eagle-import:GND-EARTH")
+		(at 144.78 67.945 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ad1ecb00-a6c8-46b0-89b0-6d9b13c4fdaa")
+		(property "Reference" "#SUPPLY0106"
+			(at 144.78 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 71.12 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 67.945 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d4c16c7d-2d2c-4850-bbcd-488bc88a241d")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "#SUPPLY030")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "#SUPPLY0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BRGRavionics-eagle-import:GND-EARTH")
+		(at 134.62 107.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8fb3366-a0db-4cec-92e8-f79c10a6fea7")
+		(property "Reference" "#SUPPLY0103"
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 111.125 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8bd17ef5-fb53-4233-8ecf-988cbfaff274")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "#SUPPLY029")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "#SUPPLY0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "BRGRavionics-eagle-import:GND-EARTH")
+		(at 116.84 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "da5bd1a9-37c0-41ad-9bb0-cc2735806dc9")
+		(property "Reference" "#SUPPLY0105"
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 84.455 0)
+			(effects
+				(font
+					(size 1.778 1.5113)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 116.84 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b108bf2-606f-4c63-b6bb-1aceee747208")
+		)
+		(instances
+			(project "BRGRavionics2.4.1"
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/c8bf970c-6472-4c71-b21f-12931a524a76"
+					(reference "#SUPPLY05")
+					(unit 1)
+				)
+				(path "/4e6fd9e4-e85c-45d6-9f9c-1f20b37f8bd7/e6565ecd-a822-4faf-aa89-8fee8854ac11"
+					(reference "#SUPPLY0105")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
