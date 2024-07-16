@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Iridium9603N")(type "KiCad")(uri "${KIPRJMOD}/Iridium9603N.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,219 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP TMAG5170A2QDGKR
+D TMAG5170A2QDGKR
+K
+F https://www.ti.com/lit/ds/symlink/tmag5170.pdf?ts=1637421424132&ref_url=https%253A%252F%252Fwww.ti.com%252Fstore%252Fti%252Fen%252Fp%252Fproduct%252F%253Fp%253DTMAG5170A2QDGKR
+$ENDCMP
+#
+$CMP SS4-10-3.00-L-D-K-TR
+D Samtec SS4 Series 0.4mm 20 Way 2 Row Straight PCB Socket Surface Mount Board to Board
+K
+F http://suddendocs.samtec.com/prints/ss4-xx-x.xx-x-d-x-xx-tr-mkt.pdf
+$ENDCMP
+#
+$CMP 217175-0001
+D Connector USB Type C Female 6Positions 0.5mm Right Angle SMT Embossed T/R - Tape and Reel
+K
+F https://www.molex.com/pdm_docs/sd/2171750001_sd.pdf
+$ENDCMP
+#
+$CMP USB4110-GF-A
+D CONN USB 2.0 TYPE-C R/A SMT
+K
+F https://gct.co/files/drawings/usb4110.pdf
+$ENDCMP
+#
+$CMP SN65HVD230MDREP
+D Enhanced Product 3.3-V Can Transceivers With Standby Mode
+K
+F http://www.ti.com/lit/gpn/sn65hvd230m-ep
+$ENDCMP
+#
+$CMP RJHSE3380A1
+D Modular Jack - Verticals, Input Output Connectors 8P8C, Vertical, With shield, without LEDs..
+K
+F https://cdn.amphenol-cs.com/media/wysiwyg/files/documentation/datasheet/inputoutput/io-modjack-rjhse.pdf
+$ENDCMP
+#
+$CMP TEENSY_4.0
+D Teensy USB Board, Version 4.0
+K
+F https://www.pjrc.com/store/teensy40.html
+$ENDCMP
+#
+$CMP MAX-M10S-00B
+D GPS Modules u-blox M10 GNSS LCC module, firmware in ROM, SAW filter, LNA
+K
+F https://content.u-blox.com/sites/default/files/MAX-M10S_IntegrationManual_UBX-20053088.pdf
+$ENDCMP
+#
+$CMP SS-52000-004
+D Connector USB Type A Receptacle 9 Position Straight - Bulk
+K
+F https://www.mouser.com/datasheet/2/643/Bel_02072019_SS-52000-004-1531097.pdf
+$ENDCMP
+#
+$CMP U.FL-R-SMT_10_
+D RF Connectors / Coaxial Connectors U.FL RECEPTACLE SMT GLD M CONT REEL
+K
+F https://media.digikey.com/pdf/Data%20Sheets/Hirose%20PDFs/UFL%20Series.pdf
+$ENDCMP
+#
+$CMP G125-FS12005L0P
+D Gecko DIL Female Vertical Surface Mount Connector, gold, pick &amp; place (cut tape packing), 20 contacts
+K
+F https://cdn.harwin.com/pdfs/G125-FS1XX05L0P.pdf
+$ENDCMP
+#
+$CMP 692221030100
+D WR-COM USB 3.0 Connector B horizontal Wurth Elektronik Right Angle PCB Mount Mount Female Version 3.0 Type B USB Connector, 30 V ac, 0.25A
+K
+F http://katalog.we-online.de/em/datasheet/692221030100.pdf
+$ENDCMP
+#
+$CMP AP22913W6-7
+D Power Switch ICs - Power Distribution Load Switch SOT26 T&R 3K
+K
+F https://www.diodes.com//assets/Datasheets/AP22913.pdf
+$ENDCMP
+#
+$CMP BMP581
+D Pressure Sensor 4.35PSI ~ 18.13PSI (30kPa ~ 125kPa) Absolute 10-WFLGA
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf
+$ENDCMP
+#
+$CMP BMM350
+D Board Mount Hall Effect / Magnetic Sensors High-Performance Magnometer
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmm350-ds001.pdf
+$ENDCMP
+#
+$CMP ICM-42688-P
+D IMU (Inertial Measurement Unit), 6-Axis, Accelerometer, Gyroscope
+K
+F https://3cfeqx1hf82y3xcoull08ihx-wpengine.netdna-ssl.com/wp-content/uploads/2021/06/DS-000347-ICM-42688-P-v1.5.pdf
+$ENDCMP
+#
+$CMP NEO-M9N-00B
+D M9 RF Receiver BeiDou, Galileo, GLONASS, GNSS, GPS -167dBm Module
+K
+F https://content.u-blox.com/sites/default/files/NEO-M9N-00B_DataSheet_UBX-19014285.pdf
+$ENDCMP
+#
+$CMP ABP2DANT001BA2A3XX
+D Board Mount Pressure Sensors BASIC PRESSURE,SMT DIP,BARBED
+K
+F https://prod-edam.honeywell.com/content/dam/honeywell-edam/sps/siot/en-us/products/sensors/pressure-sensors/board-mount-pressure-sensors/basic-abp2-series/documents/sps-siot-abp2-series-datasheet-32350268-en.pdf
+$ENDCMP
+#
+$CMP G125-MS10605L3P
+D Gecko DIL Male Vertical Surface Mount Connector, SMT Latches, gold, pick &amp; place (cut tape packing), 6 contacts
+K
+F https://cdn.harwin.com/pdfs/G125-MS1XX05L3P.pdf
+$ENDCMP
+#
+$CMP MAX31856MUD+T
+D Sensor Interface Precision Thermocouple to Digital Converter with Linearization
+K
+F https://datasheets.maximintegrated.com/en/ds/MAX31856.pdf
+$ENDCMP
+#
+$CMP MPRLS0025PA00001A
+D HONEYWELL - MPRLS0025PA00001A - PRESSURE SENSOR, 25PSI, 1PORT, 3.3V
+K
+F https://componentsearchengine.com/Datasheets/2/MPRLS0025PA00001A.pdf
+$ENDCMP
+#
+$CMP TEENSY_4.1
+D Teensy 4.1 Development Board
+K
+F https://www.pjrc.com/store/teensy41.html
+$ENDCMP
+#
+$CMP G125-MH12005L5P
+D Gecko DIL Male Horizontal 3.3mm Throughboard Connector, No latches, Barbs for 1.6mm thick PCB, gold, pick &amp; place (cut tape packing), 20 contacts
+K
+F https://cdn.harwin.com/pdfs/G125-MHXXX05L5P.pdf
+$ENDCMP
+#
+$CMP DRV8800PWPR
+D 2.8A Brushed DC Motor Driver (PH/EN Ctrl)
+K
+F http://www.ti.com/lit/gpn/drv8800
+$ENDCMP
+#
+$CMP GSB11111ALF
+D USB Connectors USB 2.0, Type A, Receptacle, Vertical, 4 Pins, Shell with Nickel Plating, Gold Flash, Dip 3.0mm,Terminal Tail Length 2.7mm, Black Housing, Tray Packaging
+K
+F https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/gsb111xxalf.pdf
+$ENDCMP
+#
+$CMP BQ25306RTER
+D STANDALONE 17-V, 3-A SINGLE CELL
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/2f547f963ca1fcc8a9da6a9d70991dab.pdf
+$ENDCMP
+#
+$CMP LV14540DDAR
+D Switching Voltage Regulators 40V 5A 2.2MHz step-down converter 8-SO PowerPAD -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/lv14540.pdf?ts=1711947439079&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLV14540%253FkeyMatch%253DLV14540%2526tisearch%253Dsearch-everything%2526usecase%253DGPN
+$ENDCMP
+#
+$CMP G125-MV10605M2P
+D Gecko Screw-Lok DIL Male Vertical Throughboard Connector, screw fixings with 5mm board mount studs, gold, pick &amp; place (cut tape packing), 6 contacts
+K
+F https://cdn.harwin.com/pdfs/G125-MV1XX05M2P.pdf
+$ENDCMP
+#
+$CMP CMS1-4-R
+D Common Mode Chokes / Filters 18uH 3.8A 0.0089ohms
+K
+F https://www.eaton.com/content/dam/eaton/products/electronic-components/resources/data-sheet/eaton-cms-common-mode-inductors-surface-mount-data-sheet.pdf
+$ENDCMP
+#
+$CMP NRVBS540T3G
+D ON SEMICONDUCTOR - NRVBS540T3G - SCHOTTKY RECT, AEC-Q101, 40V, DO-214AB
+K
+F https://www.onsemi.com/pub/Collateral/MBRS540T3-D.PDF
+$ENDCMP
+#
+$CMP 103AT-2
+D NTC (Negative Temperature Coefficient) Thermistors 10kohm 1%
+K
+F https://www.semitec-global.com/uploads/2022/01/P12-13-AT-Thermistor.pdf
+$ENDCMP
+#
+$CMP LTC1540CMS8#PBF
+D LTC1540CMS8#PBF Linear Technology, Comparator, CMOS, TTL O/P, 2  11 V 8-Pin MSOP
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/1540fb.pdf
+$ENDCMP
+#
+$CMP USB4145-03-0070-C
+D USB Connectors USB-C Rec 3u" Vert 16P SMT 0.7mm TH stakes H7.46mm T+R+Cap
+K
+F https://gct.co/files/drawings/usb4145.pdf
+$ENDCMP
+#
+$CMP INA236BIDDFR
+D Current & Power Monitors & Regulators 48-V, 16-bit ultraprecise IC output digital power monitor with alert in WCSP
+K
+F https://www.ti.com/general/docs/suppproductinfo.tsp?distId=26&gotoUrl=https://www.ti.com/lit/gpn/ina236
+$ENDCMP
+#
+$CMP G125-FV20605L0P
+D Gecko DIL Female Vertical 4.5mm Throughboard Connector, gold, pick &amp; place (cut tape packing), 6 contacts
+K
+F https://cdn.harwin.com/pdfs/G125-FVXXX05L0P.pdf
+$ENDCMP
+#
+#End Doc Library
